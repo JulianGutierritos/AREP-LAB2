@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<title>Calculadora</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/apiclient.js"></script>
+</head>
+
+<body>
+<p><h1>Calculadora de media y desviaci&oacute;n est&aacute;ndar</h2></p>
+<p><h2>Ingrese una lista de n&uacute;meros separados por coma</h2></p>
+<p><input type="text" id="numeros" name="numeros"><br></p>
+
+<p><button type="button" class="button" onclick="apiclient.getMediaYDesv()">Calcular</button></p>
+<p><h2><output id="media"> Media: </output></h2></p>
+
+<p><h2><output id="desviacion" > Desviaci&oacute;n est&aacute;ndar:</output></h2></p>
+
+</body>
+</html>
