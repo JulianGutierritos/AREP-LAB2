@@ -1,4 +1,4 @@
-# Calculadora de media y desviación estándar con despliegue en Heroku#
+# Calculadora de media y desviación estándar con despliegue en Heroku 
 
 ## Despliegue en Heroku ##
 
@@ -69,7 +69,7 @@ Por otra parte, si se prefiere levantar el servidor web y utizarlo mediante su p
 (**NOTA:** Si se encuentra en un computador con SO Windows, primero deberá cambiar, antes de ejecutar el comando anterior, la linea que se encuentra en el Procfile por la siguiente:
 
 ```
-web: java -cp target/classes:target/dependency/* edu.escuelaing.arep.designprimer.SparkWebApp
+web: java -cp target/classes;target/dependency/* edu.escuelaing.arep.designprimer.SparkWebApp
 ```
 
 si no lo hace, el comando anterior no funcionará)
