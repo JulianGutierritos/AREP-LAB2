@@ -4,6 +4,10 @@
 
 [![Heroku](https://www.herokucdn.com/deploy/button.png)](https://arep-calculadora.herokuapp.com)
 
+## Despliegue en CircleCi
+
+[![CircleCI](https://circleci.com/gh/JulianGutierritos/AREP-LAB2.svg?style=svg)](https://app.circleci.com/pipelines/github/JulianGutierritos/AREP-LAB2)
+
 ## Prerrequisitos ##
 
 La persona que quiera utilizar este programa debe tener conocimientos básicos en Java y Maven. Además, es necesario tener claras las definiciones de desviación estándar y media.
@@ -25,6 +29,8 @@ Para el desarrollo de este programa se utilizó:
 - Maven: Fue la herramienta utilizada para la gestión y construcción del programa.
 
 - Heroku: Fue la herramienta que se utilizó para desplegar el programa.
+
+- CircleCi: Fue la herramienta de integración continua utilizada.
 
 ## Descripción ## 
 
